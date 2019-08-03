@@ -1,0 +1,11 @@
+C:\Users\Atte>docker pull devopsdockeruh/exec_bash_exercise
+
+C:\Users\Atte>docker run -d --name kello devopsdockeruh/exec_bash_exercise
+
+C:\Users\Atte>docker exec -it kello tail -f ./logs.txt
+Sat, 03 Aug 2019 07:00:56 GMT
+Sat, 03 Aug 2019 07:00:59 GMT
+Sat, 03 Aug 2019 07:01:02 GMT
+Sat, 03 Aug 2019 07:01:05 GMT
+Secret message is:
+"Docker is easy"
